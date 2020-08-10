@@ -1053,8 +1053,7 @@ font-family: 'Montserrat', sans-serif;
     }
 
     .additional button{
-      position: absolute;
-      padding: 10px;
+      padding: 9px;
       border-radius: 15px;
       font-size: 1.5vw;
     }
@@ -1069,6 +1068,12 @@ font-family: 'Montserrat', sans-serif;
       width: 102vw;
       height: 9vw;
     }
+    .additional .subscribe input[type=text]{
+      margin:2px;
+      padding:4px;
+      font-size: 2vw;
+    }
+    
     /* FOOTER */
     .footer {
       width: 111vw;
@@ -1113,6 +1118,7 @@ font-family: 'Montserrat', sans-serif;
       color: black;
       font-size: 1.8vw;
       letter-spacing: 0.5px;
+      height:10vw;
     }
     
     .footer-items h2 {
