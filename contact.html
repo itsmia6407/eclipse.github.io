@@ -129,22 +129,24 @@
     </div>
     <div class="specific">
     <label  class="form-label" class="field-row" for="specific">SPECIFIC</label>
-    <br>
-    <div class="radios">
-    <label for="chkYes">
+   <br>
+    <div  class="radios">
+    <label class="form-label" for="chkYes">
       <input type="radio" id="chkYes" name="chk" onclick="ShowHideDiv()" />
       Order Problem
   </label>
+  
   <label for="chkNo">
       <input type="radio" id="chkNo" name="chk" onclick="ShowHideDiv()" />
       Question
   </label>
-  <label for="chkNo">
+ 
+  <label  for="chkNo">
     <input type="radio" id="chkNo" name="chk" onclick="ShowHideDiv()" />
     Comment
 </label>
   <div id="dvtext" style="display: none">
-      Order Number:
+      Please Enter Order Number:
       <input type="text" id="txtBox" pattern="^[0-9]+$" placeholder="Order number" required/>
   </div>
   </div>

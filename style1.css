@@ -949,15 +949,17 @@ font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;  
   }
   /* CONTACT FORM */
-  .specific #specific label{
+  .specific .radios label{
     margin: 10px;
     padding: 10px;  
-
   }
-  .specific  .radios{
+  .radios {
     text-align: center;
-    font-size: 2.5vw; 
-    height:60px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 5px 5px 0;
+    text-align: right;
+    width: 200px;
   }
   /* The banner on mainpage */
   .imagecontainer .textcenter button{
@@ -1231,9 +1233,9 @@ font-family: 'Montserrat', sans-serif;
     padding:12px;
   }
   /* SECTION 2 */
-  .mainpage_section2{
+  /* .mainpage_section2{
 
-  }
+  } */
   /* SECTION 3 */
   .mainpage_section3{
     height: 60vw;
