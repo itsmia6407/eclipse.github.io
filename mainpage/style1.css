@@ -428,6 +428,7 @@ form.Flatsearch button {
   width: 200px;
 }
  #msg{
+   width:80vw;
   font-size: 16px;
   margin: 0 5px 5px 0;
   text-align: center;
