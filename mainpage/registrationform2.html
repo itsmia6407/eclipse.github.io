@@ -17,7 +17,7 @@
     
       <nav>
         <ul class="megamenu">
-          <li><a class="logo" href="mainpage.html"><img src="images/logo.jpg" alt="logo"/></a></li>
+          <li><a class="logo" href="index.html"><img src="images/logo.jpg" alt="logo"/></a></li>
          <li> <a href="newrelease.html" class="active">NEW RELEASES </a></li>
 
       <li>
@@ -113,14 +113,14 @@
           <BR>
        <label class="form-label"  for="firstName">FIRST NAME</label>
       
-       <input type="text" name="firstname" id="firstName" class="field text-field first-name-field" placeholder = "First Name" required>
+       <input type="text" name="firstname" pattern="^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$" id="firstName" class="field text-field first-name-field" placeholder = "First Name" required>
        <span class="message"></span>
     </div>
     <BR>
     <div class="field-row">
        <label class="form-label cf" for="lastName">LAST NAME</label>
        
-       <input type="text" name="lastName" id="lastName" class="field text-field last-name-field" placeholder = "Last Name" required>
+       <input type="text" name="lastName" pattern="^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$" id="lastName" class="field text-field last-name-field" placeholder = "Last Name" required>
        <span class="message"></span>
     </div>
     <BR>
@@ -134,7 +134,7 @@
     <div class="field-row">
        <label class="form-label" for="tel">CELL PHONE</label>
        
-       <input type="tel" name="cellnum" id="tel" class="field text-field tel-field" placeholder = "Cell phone" required>
+       <input type="tel" name="cellnum" pattern="^[0-9]+$" id="tel" class="field text-field tel-field" placeholder = "Cell phone" required>
        <span class="message"></span>
       
     </div>

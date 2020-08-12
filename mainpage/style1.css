@@ -145,6 +145,7 @@ form.Flatsearch button {
   font-size: 1.2vw;
   text-align: justify;
   line-height: 25px;
+  padding: 15px;
 }
 
 .border {
@@ -193,7 +194,7 @@ form.Flatsearch button {
 }
 
 .social-media i {
-  height: 1.2vw;
+  height: 1.5vw;
   width: 1.5vw;
   margin: 5px 0px;
   padding: 4px;
@@ -419,7 +420,9 @@ form.Flatsearch button {
   position: relative;
   width: 100%;
 }
- 
+.specific{
+  height:100px;
+}
 .form-label {
   display: inline-block;
   font-size: 16px;
@@ -427,8 +430,22 @@ form.Flatsearch button {
   text-align: right;
   width: 200px;
 }
+.radio-label{
+  font-size: 16px;
+  margin: 0 5px 5px 0;
+}
+#dvtext{
+  font-size: 14px;
+  margin: 0 5px 5px 0;
+  height: 30px;
+  padding:15px 0px;
+}
+.radios{
+  text-align: center;
+}
+
  #msg{
-   width:80vw;
+   width:45vw;
   font-size: 16px;
   margin: 0 5px 5px 0;
   text-align: center;
@@ -437,6 +454,7 @@ form.Flatsearch button {
   margin-right: auto 
  }
  .submit{
+   padding:10px;
   text-align: center;
   margin-left: auto;
   margin-right: auto 
@@ -687,7 +705,7 @@ font-family: 'Montserrat', sans-serif;
   width: 90%;
   flex: 50%;
   padding: 10px;
-  height: 750px;
+  height: 700px;
   margin:10px;
 
 }
@@ -695,7 +713,7 @@ font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 1.5vw;
   position: relative;
-  top: -400px;
+  top: -350px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Montserrat', sans-serif;
@@ -759,7 +777,7 @@ font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 1.5vw;
   position: relative;
-  top: -100px;
+  top: -200px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -899,6 +917,7 @@ font-family: 'Montserrat', sans-serif;
   .megamenu {
     font-size: 10px;
     padding: 5px;
+    width: 100vw;
   }
   nav .megamenu .logo img{
     width: 15px;
@@ -906,6 +925,7 @@ font-family: 'Montserrat', sans-serif;
   }
   nav .megamenu a{
     margin:0px;
+    
   }
   nav .megamenu li{
     margin:5px;
@@ -950,7 +970,12 @@ font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;  
   }
   /* CONTACT FORM */
-  
+  .specific {
+    height: 130px;
+  }
+  #msg{
+    width: 80%;
+  }
   /* The banner on mainpage */
   .imagecontainer .textcenter button{
     background-color: black;
@@ -976,14 +1001,18 @@ font-family: 'Montserrat', sans-serif;
 
   /* MAIN PAGE SECTION 2 */
   .mainpage_section2{
-    width: 65vw;
-    height:130vw;
+    width: 90%;
+    height:110vw;
     font-size: 2vw;
     padding: 10px;
   }
   .mainpage_section2 .outputmp{
-    width:50vw;
+    
     padding: 10px;
+    text-align: center;
+  }
+  .imgcontainer {
+    width: 60%;
   }
   /* MAIN PAGE SECTION 3  */
   .mainpage_section3{
@@ -1011,7 +1040,7 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .mainpage_section3 #pic3 .textcenter3 {
-    top: -50px;
+    top: -100px;
   }
   .mainpage_section3 #pic3 .textcenter3 .first button {
   font-size: 1.5vw;
@@ -1023,9 +1052,9 @@ font-family: 'Montserrat', sans-serif;
   /* MAIN PAGE SECTION 4 */
   .mainpage_section4{
     width:90%;
-    height: 80vw;
+    height: 75vw;
     padding:20px;
-  margin: 10px;
+    margin: 10px;
   }
   .mainpage_section4 #pic4 .textcenter4 .first button {
   font-size: 1.5vw;
@@ -1034,13 +1063,15 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .mainpage_section4 #pic4 img {
-    width: 100%;
+    width: 90%;
     height: 300px;
   }
-
+  .mainpage_section4 #pic4 .textcenter4 {
+    top: -150px;
+  }
   /* MAIN PAGE SECTION 5 */
   .mainpage_section5{
-    width:100vw;
+    width:90%;
     height: 50vw;
   }
   .mainpage_section5 #pic5 .textcenter5 .first button {
@@ -1061,12 +1092,12 @@ font-family: 'Montserrat', sans-serif;
 
     /* Conclusion */
     .conclusion{
-      width: 100vw;
+      width: 90vw;
       height: 8vw;
     }
     /* Additional */
     .additional{
-      width: 102vw;
+      width: 95vw;
       height: 9vw;
     }
     .additional .subscribe input[type=text]{
@@ -1077,14 +1108,14 @@ font-family: 'Montserrat', sans-serif;
     
     /* FOOTER */
     .footer {
-      width: 111vw;
+      width: 100vw;
       height: 50vw;
       background: #e2e2e2;
       display: block;
     }
     
     .inner-footer {
-      width: 111vw;
+      width: 100vw;
       height:50vw;
       margin: auto;
       padding: 20px 10px;
@@ -1119,12 +1150,12 @@ font-family: 'Montserrat', sans-serif;
       color: black;
       font-size: 1.8vw;
       letter-spacing: 0.5px;
-      height:10vw;
+      height:12vw;
     }
     
     .footer-items h2 {
       padding: 10px 0;
-      font-size: 2.3vw;
+      font-size: 2.1vw;
       color: black;
       text-align: center;
     }
@@ -1287,7 +1318,7 @@ font-family: 'Montserrat', sans-serif;
     height: 30vw;
   }
   .footer .inner-footer {
-    width: 95%;
+    width: 100%;
     height: 30vw;
     margin: auto;
     display: flex;
