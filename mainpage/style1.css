@@ -365,8 +365,12 @@ form.Flatsearch button {
   height: 55vw;
   text-align: center;
   color: darkslategray;
-  
 }
+.banner img{
+  width: 90%;
+  height: 55vw;
+}
+
 .centered {
   position: absolute;
   top: 40%;
@@ -664,7 +668,9 @@ background: black;
 .form-tetx{
   text-align: center;
 }
-
+.outputimgmenhd{
+  height: 110vw;
+}
 /* MAIN PAGE SECTION 2 */
 .mainpage_section2{
   text-align: left;
@@ -902,6 +908,12 @@ font-family: 'Montserrat', sans-serif;
 .contactus a{
   text-decoration: none;
   color: black;
+}
+.msg #msg{
+  width: 35vw;
+}
+.msg{
+  width: 35vw;
 }
 /* THE MOBILE MODE !!! */
 
