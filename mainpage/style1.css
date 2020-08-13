@@ -187,6 +187,7 @@ form.Flatsearch button {
 .social-media {
   width: 100%;
   text-align: center;
+
 }
 
 .social-media a {
@@ -272,7 +273,7 @@ form.Flatsearch button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
+  padding: 5px;
   width: 100%;
   height: 100%;
 }
@@ -361,7 +362,7 @@ form.Flatsearch button {
 /* Container holding the image and the text */
 .banner {
   width: 100%;
-  height: 70vw;
+  height: 55vw;
   text-align: center;
   color: darkslategray;
   
@@ -958,12 +959,20 @@ font-family: 'Montserrat', sans-serif;
   .outputimgmen .imgcontainer{
     height: 50vw;
     padding: 5px;
-    width: 45%;
+
     margin: auto;
   }
   .outputimgmen .imgcontainer .imgs{
     height: 40vw;
   }
+  .banner img{
+    width:90%;
+    height: 55vw;
+  }
+   .imgcontainer .imgs {
+    /* width: 80%; */
+    height: 50vw;
+  } 
   /* REG FORM */
   .reg-form {
     width: 90vw;
@@ -976,6 +985,13 @@ font-family: 'Montserrat', sans-serif;
   #msg{
     width: 80%;
   }
+  .banner {
+    height: 50vw;
+  }
+  .banner img {
+    height: 50vw;
+  }
+  
   /* The banner on mainpage */
   .imagecontainer .textcenter button{
     background-color: black;
@@ -988,9 +1004,10 @@ font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 2vw;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
   }
 
   .imagecontainer {
@@ -1002,7 +1019,7 @@ font-family: 'Montserrat', sans-serif;
   /* MAIN PAGE SECTION 2 */
   .mainpage_section2{
     width: 90%;
-    height:110vw;
+    height:100vw;
     font-size: 2vw;
     padding: 10px;
   }
@@ -1052,7 +1069,7 @@ font-family: 'Montserrat', sans-serif;
   /* MAIN PAGE SECTION 4 */
   .mainpage_section4{
     width:90%;
-    height: 75vw;
+    height: 65vw;
     padding:20px;
     margin: 10px;
   }
@@ -1185,9 +1202,9 @@ font-family: 'Montserrat', sans-serif;
     }
     
     .social-media i {
-      height: 3vw;
-      width: 3vw;
-      margin: 10px 1px 1px 1px;
+      height: 3.5vw;
+      width: 3.5vw;
+      margin: 10px 10px 5px 5px;
       padding: 2.5px;
       color: black;
       background-color: white;
@@ -1252,7 +1269,7 @@ font-family: 'Montserrat', sans-serif;
     height: 60vw;
   }
   .imagecontainer .textcenter {
-    top:60%;
+    top:70%;
     font-size: 1.5vw;
   }
   .imagecontainer .textcenter button{
@@ -1263,6 +1280,33 @@ font-family: 'Montserrat', sans-serif;
   /* .mainpage_section2{
 
   } */
+  .outputimgmen{
+    height: 115vw;
+  
+  }
+  .imgs{
+    height: 50vw;
+  }
+  .imgcontainer {
+    height: 50vw;
+  }
+
+.outputimgmenyz{
+  height: 120vw;
+}
+.outputimgmennt{
+  height:100vw;
+}
+.outputimgwomensn1{
+  height:110vw;
+}
+.outputimgwomendn{
+  height:70vw;
+}
+.outputacc{
+  height:170vw;
+}
+
   /* SECTION 3 */
   .mainpage_section3{
     height: 60vw;
@@ -1315,11 +1359,11 @@ font-family: 'Montserrat', sans-serif;
   /* FOOTER */
   .footer{
     width: 100%;
-    height: 30vw;
+    height: 35vw;
   }
   .footer .inner-footer {
     width: 100%;
-    height: 30vw;
+    height: 35vw;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -1327,7 +1371,7 @@ font-family: 'Montserrat', sans-serif;
     justify-content: center;
   }
   .footer .inner-footer ul{
-    height: 5vw;
+    height: 6vw;
   }
   .footer-items p {
     font-size: 1.5vw;
@@ -1337,7 +1381,7 @@ font-family: 'Montserrat', sans-serif;
   .social-media i {
     height: 2.5vw;
     width: 2.5vw;
-    margin: 10px 10px 1px 1px;
+    margin: 5px 5px 5px 5px;;
     padding: 3px;
   }
 
@@ -1368,5 +1412,8 @@ font-family: 'Montserrat', sans-serif;
   }
   .outputimgwomend .imgcontainer{
     width: 60vw;
+  }
+  .additional{
+    width:96vw;
   }
 }
