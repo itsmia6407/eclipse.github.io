@@ -5,7 +5,7 @@ Seneca College. <br />
 for the site's front-end. <br />
 The site is a responsive website, can be opened on a variety of screen sizes, tablets and mobile devices. 
 <br />
-[Website](https://itsmia6407.github.io/eclipse.github.io/mainpage)
+[Click to access to the website](https://itsmia6407.github.io/eclipse.github.io/mainpage/)
 
 ## Technologies
 - JavaScript
