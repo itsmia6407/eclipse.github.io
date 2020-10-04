@@ -17,7 +17,7 @@
     
       <nav>
         <ul class="megamenu">
-          <li><a class="logo" href="index.html"><img src="images/logo.jpg" alt="logo"/></a></li>
+          <li><a class="logo" href="mainpage.html"><img src="images/logo.jpg" alt="logo"/></a></li>
          <li> <a href="newrelease.html" class="active">NEW RELEASES </a></li>
 
       <li>
@@ -124,30 +124,27 @@
     </div>
     <div class="field-row">
     <label class="form-label" for="postalcode">POSTAL CODE</label> 
-    <input type="postalcode" name="postalcode" id="postalcode" pattern="/^(?:[A-Z]\d[A-Z][ -]?\d[A-Z]\d)$/i" class="field text-field postalcode-field" placeholder = "Postal Code" required>
+    <input type="postalcode" name="postalcode" id="postalcode" pattern="^[ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy]{1}\d{1}[A-Za-z]{1}[ ]{0,1}\d{1}[A-Za-z]{1}\d{1}$" class="field text-field postalcode-field" placeholder = "Postal Code" required>
     <span class="message"></span>
     </div>
     <div class="specific">
     <label  class="form-label" class="field-row" for="specific">SPECIFIC</label>
-   <br>
-    <div  class="radios">
-    <label class="radio-label" for="chkYes">
+    <br>
+    <div class="radios">
+    <label for="chkYes">
       <input type="radio" id="chkYes" name="chk" onclick="ShowHideDiv()" />
       Order Problem
   </label>
-  
-  <label class="radio-label" for="chkNo">
+  <label for="chkNo">
       <input type="radio" id="chkNo" name="chk" onclick="ShowHideDiv()" />
       Question
   </label>
- 
-  <label class="radio-label" for="chkNo">
+  <label for="chkNo">
     <input type="radio" id="chkNo" name="chk" onclick="ShowHideDiv()" />
     Comment
 </label>
-
   <div id="dvtext" style="display: none">
-      Please Enter Order Number:
+      Order Number:
       <input type="text" id="txtBox" pattern="^[0-9]+$" placeholder="Order number" required/>
   </div>
   </div>
@@ -158,7 +155,7 @@
    </div>
    <div class="msg">
     <label class="form-label" for="msg">MESSAGE:</label> <br>
-    <textarea id="msg" name="msg" rows="10" cols="50" pattern="^[a-zA-Z ]*$" placeholder = "Enter your message here" required></textarea>
+    <textarea id="msg" name="msg" rows="10" cols="50" pattern="^[a-zA-Z ]*$" placeholder = "Enter your message" required></textarea>
    </div>
    <input type="hidden" id="MiaLe" name="MiaLe" value="1234">
    <div class="submit">
